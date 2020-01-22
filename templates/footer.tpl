@@ -1,5 +1,33 @@
+			<div id="social">
+				<a class="symbol" href="https://www.facebook.com/Zeroequalsfalse/">
+					<i class="fa fa-facebook-square"></i>
+				</a>
+
+				<a class="symbol" href="https://github.com/zero-equals-false">
+					<i class="fa fa-github-square"></i>
+				</a>
+
+				<a class="symbol" href="https://twitter.com/ZeroEqualsFalse">
+					<i class="fa fa-twitter-square"></i>
+				</a>
+			</div>
+			<div class="footer__links">
+				<a class="footer__link" href="https://zeroequalsfalse.com/privacy-policy">Privacy Policy</a>
+				&bull;
+				<a class="footer__link" href="https://zeroequalsfalse.com/terms-of-use">Terms of Use</a>
+				&bull;
+				<a class="footer__link" href="https://zeroequalsfalse.com/contact">Contact</a>
+				&bull;
+				<a class="footer__link" href="https://zeroequalsfalse.com/code-of-conduct">Code of Conduct</a>
+				<br>
+			</div>
+			<p id="copyrighttext">
+				© Copyright 2020 - Zero Equals False -
+				As an Amazon Associate I earn from qualifying purchases.
+			</p>
 		</div><!-- /.container#content -->
 	</main>
+
 	<!-- IF !isSpider -->
 	<div class="topic-search hidden">
 		<div class="btn-group">

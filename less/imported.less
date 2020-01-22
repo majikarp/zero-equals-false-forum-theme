@@ -1,0 +1,132 @@
+.top-header {
+    padding: 10px;
+    background:black;
+    text-align: center;
+}
+
+.top-header a {
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.top-header a:hover {
+    text-decoration: underline;
+}
+
+a.symbol {
+    margin: 0 0.3rem;
+    
+    i.fa {
+        color: #cdd4da;
+        font-size: 32px;
+    }
+}
+
+#social {
+    text-align: center;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+#copyrighttext {
+    color: #bbb;
+    text-align: center;
+    font-size: 85%;
+    margin: 10px;
+}
+
+.footer__links {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 85%;
+    text-align: center;
+
+    & a {
+        color: white;
+    }
+}
+
+// nav.main-nav {
+//     padding: 20px;
+//     background: #fff;
+//     background: rgba(185, 185, 185, .90);
+//     /* margin: 0 auto; */
+//     text-align: right;
+//     z-index: 100;
+//     white-space: nowrap;
+// }
+// @media (min-width: 992px) {
+
+//     nav.main-nav a.main-nav__link {
+//         top: 8px;
+//         right: 6px;
+//         padding: 8px 12px !important;
+//         color:black!important;
+//         font-size: 13px;
+//         line-height: 1.35;
+//         border-radius: 3px;
+//         margin-left: 8px;
+//         font-weight: bold;
+//         box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+//         transition: all 0.2s ease-out;
+//     }
+
+//     nav.main-nav a:not(.btn):hover {
+//         background-color: #ccc;
+//         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+//         text-decoration: underline!important;
+//     }
+// }
+
+
+// nav.main-nav a.cta {
+//     background:black;
+//     color: #fff;
+//     margin-left: 12px;
+// }
+
+// @media (max-width: 324px) {
+//     nav.main-nav a.cta {
+//       display: none;
+//     }
+// }
+
+// /*
+//  * Search Bar
+//  */
+
+// @media (min-width: 992px) {
+//     .search-bar {
+//         max-width: 300px;
+//     }
+// }
+
+.site-nav {
+    display: flex;
+    flex-direction: row;
+    margin: 7px 15px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+    &__item {
+        margin: 4px;
+    }
+
+    &__link {
+        padding: 8px 13px;
+        transition: all 0.075s ease-out;
+        border-radius: 4px;
+        display: inline-block;
+
+        &:hover, &:focus {
+            background-color: rgba(0, 0, 0, 0.05);
+            outline: 0;
+        }
+
+        &:active {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    }
+}

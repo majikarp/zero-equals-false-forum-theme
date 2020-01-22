@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-persona",
+  "name": "nodebb-theme-zeroequalsfalse",
   "version": "10.1.30",
   "nbbpm": {
     "compatibility": "^1.13.0"
   },
-  "description": "Persona theme for NodeBB",
+  "description": "ZeroEqualsFalse theme for NodeBB, based on Persona theme",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psychobunny/nodebb-theme-persona"
+    "url": "https://github.com/majikarp/zero-equals-false-forum-theme"
   },
   "keywords": [
     "nodebb",
@@ -18,6 +18,11 @@
     "responsive"
   ],
   "contributors": [
+    {
+      "name": "Marty Jacobs",
+      "email": "zeroequalsfalse@gmail.com",
+      "url": "https://zeroequalsfalse.com"
+    },
     {
       "name": "Andrew Rodrigues",
       "email": "andrew@designcreateplay.com",

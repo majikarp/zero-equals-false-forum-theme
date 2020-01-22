@@ -18,7 +18,7 @@
 					<h1 class="navbar-brand forum-title">{config.siteTitle}</h1>
 				</a>
 				<!-- ENDIF config.showSiteTitle -->
-
+			
 				<div component="navbar/title" class="visible-xs hidden">
 					<span></span>
 				</div>
