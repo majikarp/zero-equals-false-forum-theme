@@ -3,5 +3,5 @@
     "name": "ZeroEqualsFalse",
     "description": "The default theme for NodeBB, modified for ZeroEqualsFalse.com. Uses a standard approach to forum design.",
     "url": "https://github.com/majikarp/zero-equals-false-forum-theme",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png" 
 }
